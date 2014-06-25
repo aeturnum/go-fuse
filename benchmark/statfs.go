@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/pathfs"
+	"github.com/aeturnum/go-fuse/fuse"
+	"github.com/aeturnum/go-fuse/fuse/pathfs"
 )
 
 var delay = 0 * time.Microsecond

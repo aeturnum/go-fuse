@@ -9,9 +9,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/nodefs"
-	"github.com/hanwen/go-fuse/fuse/pathfs"
+	"github.com/aeturnum/go-fuse/fuse"
+	"github.com/aeturnum/go-fuse/fuse/nodefs"
+	"github.com/aeturnum/go-fuse/fuse/pathfs"
 )
 
 func main() {

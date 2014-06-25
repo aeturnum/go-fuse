@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/nodefs"
+	"github.com/aeturnum/go-fuse/fuse"
+	"github.com/aeturnum/go-fuse/fuse/nodefs"
 )
 
 // A parent pointer: node should be reachable as parent.children[name]

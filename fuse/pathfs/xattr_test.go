@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/hanwen/go-fuse/fuse"
-	"github.com/hanwen/go-fuse/fuse/nodefs"
+	"github.com/aeturnum/go-fuse/fuse"
+	"github.com/aeturnum/go-fuse/fuse/nodefs"
 )
 
 var xattrGolden = map[string][]byte{
